@@ -210,9 +210,9 @@ const GradeTracker = () => {
                         <>
                           <button
                             onClick={() => handleEditClick(student)}
-                            className="text-blue-500 hover:text-blue-700"
+                            className="text-blue-500 hover:text-blue-700 "
                           >
-                            <Pencil size={20} />
+                            <Pencil className="flex mx-4" size={20} />
                           </button>
                           <button
                             onClick={() => handleDelete(student.id)}
