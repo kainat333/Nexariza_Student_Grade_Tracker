@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import AddForm from "../form";
 import StudentStatistics from "../statistics";
-import { MessageCircleX, Pencil, Save, Trash, X } from "lucide-react";
+import { MessageCircleX, Pencil, Save, Trash} from "lucide-react";
 
 // Define TypeScript interfaces
 interface Student {
@@ -12,13 +12,16 @@ interface Student {
   points: string; // Ensure points is a string for consistency
 }
 
-const grades = ["A", "B", "C", "D", "F"]; // Define the grades available for selection
+const grades = ["A","B+", "B","C+", "C", "D+","D", "F"]; // Define the grades available for selection
 
 // Define points for each grade
 const gradePoints: Record<string, string> = {
   "A": "4.0",
+  "B+": "3.5",
   "B": "3.0",
+  "C+": "2.5",
   "C": "2.0",
+  "D+": "1.5",
   "D": "1.0",
   "F": "0.0",
 };
