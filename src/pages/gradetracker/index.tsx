@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import AddForm from "../form";
 import StudentStatistics from "../statistics";
-import { Pencil, Save, Trash, X } from "lucide-react";
+import { MessageCircleX, Pencil, Save, Trash, X } from "lucide-react";
 
 // Define TypeScript interfaces
 interface Student {
@@ -197,13 +197,13 @@ const GradeTracker = () => {
                         <>
                           <Save
                             onClick={() => handleSave(student.id)}
-                            className="text-green-500 hover:text-green-700 cursor-pointer"
-                            size={20}
+                            className="text-green-500 hover:text-green-700 cursor-pointer mx-3"
+                            size={21}
                           />
-                          <X
+                          <MessageCircleX
                             onClick={() => setEditingId(null)}
                             className="text-gray-500 hover:text-gray-700 cursor-pointer"
-                            size={20}
+                            size={21}
                           />
                         </>
                       ) : (
