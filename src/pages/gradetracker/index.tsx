@@ -116,7 +116,7 @@ const GradeTracker = () => {
           GradeTracker
         </h1>
         <button
-          className="bg-purple-400 p-4 text-white rounded mb-4 whitespace-nowrap"
+          className="flex bg-purple-400 p-4 text-white rounded mb-4 whitespace-nowrap h-12 justify-center items-center"
           onClick={handleAddStudent}
         >
           Add Student
