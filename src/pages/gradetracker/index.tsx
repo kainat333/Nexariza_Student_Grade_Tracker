@@ -155,7 +155,7 @@ const GradeTracker = () => {
                 {students.map((student, index) => (
                   <tr
                     key={student.id}
-                    className={`${index % 2 === 0 ? "bg-white" : "bg-purple-100"}`}
+                    className={`${index % 2 === 0 ? "bg-white" : "bg-purple-200"}`}
                   >
                     <td className="px-6 py-4 whitespace-nowrap border border-purple-400">
                       {editingId === student.id ? (

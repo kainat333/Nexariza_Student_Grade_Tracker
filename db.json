@@ -1,22 +1,16 @@
 {
   "students": [
     {
-      "name": "Sam Johnson",
-      "grade": "A",
-      "points": "4.0",
+      "name": "Laiba",
+      "grade": "D+",
+      "points": "1.5",
       "id": "3"
     },
     {
-      "name": "Ambar",
+      "name": "Amna",
       "grade": "B",
       "points": "3.0",
-      "id": "088e"
-    },
-    {
-      "id": "2e48",
-      "name": "Sumbal",
-      "grade": "A",
-      "points": 4
+      "id": "2e48"
     },
     {
       "id": "bdc5",
@@ -77,6 +71,48 @@
       "name": "Liam",
       "grade": "B",
       "points": 3
+    },
+    {
+      "id": "f9cb",
+      "name": "amal",
+      "grade": "D+",
+      "points": 1.5
+    },
+    {
+      "id": "888d",
+      "name": "Alia",
+      "grade": "D+",
+      "points": 1.5
+    },
+    {
+      "id": "0af6",
+      "name": "Amna",
+      "grade": "C+",
+      "points": 2.5
+    },
+    {
+      "id": "9ebc",
+      "name": "Palwasha",
+      "grade": "A",
+      "points": 4
+    },
+    {
+      "id": "1e25",
+      "name": "Moeez",
+      "grade": "B",
+      "points": 3
+    },
+    {
+      "id": "fa2a",
+      "name": "Junaid",
+      "grade": "B+",
+      "points": 3.5
+    },
+    {
+      "id": "8c85",
+      "name": "Aneela",
+      "grade": "C",
+      "points": 2
     }
   ]
 }
